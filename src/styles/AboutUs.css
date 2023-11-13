@@ -1,0 +1,38 @@
+/* Navbar.css */
+
+.about-us {
+    margin-top: 20px; 
+  }
+  
+  .about-us h2 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #1f386e;
+    margin-right: auto;
+    padding: 40px;
+  }
+  
+  .media {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .custom-image {
+    width: 35%;
+    height: 35%;
+  }
+  
+  .media-body {
+    width: 60%; 
+  }
+  
+  .media-body p {
+    text-align: justify;
+    padding-right: 20px;
+    line-height: 24px;
+    margin: 30px 20px;
+    font-size: 17px;
+  }
+  
+  

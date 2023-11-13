@@ -1,0 +1,35 @@
+
+.header-content {
+    position: relative;
+  }
+  
+  img {
+    width: 95%;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .centered-text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+
+  .centered-text h2 {
+    font-size: 56px;
+    line-height: 15px;
+    color: white;
+    letter-spacing: 4px;
+  }
+  
+  .centered-text p {
+    font-size: 40px;
+    line-height: 15px;
+    color: white;
+    letter-spacing: 4px;
+  }
+  
