@@ -78,8 +78,6 @@ function Portfolio() {
             <AlbumModal album={selectedAlbum} closeAlbum={closeAlbum} />
         )}
     </div>
-
-  
   );
 }
 

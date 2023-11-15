@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 767px) {
+  .centered-text h2 {
+    font-size: 2em;
+  }
+
+  .centered-text .subtitle {
+    font-size: 1em;
+  }
+  .services-container .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+  }
+
+  .services-container .col-md-3 {
+    width: auto; 
+  }
+  .row-album {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+  }
+  .col-md-4 {
+    width: 80%;
+  }
+  .album h3 {
+    font-size: 18px; 
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .centered-text h2 {
+    font-size: 2.5em;
+  }
+
+  .centered-text .subtitle {
+    font-size: 1.25em;
+  }
+}
